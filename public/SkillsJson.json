@@ -1,0 +1,45 @@
+[
+    {
+        "category": "Front-End",
+        "techStack": [
+            {
+                "name": "HTML/CSS/JS",
+                "iconPath": "js.png"
+            },
+            {
+                "name": "Tailwind",
+                "iconPath": "tailwind.png"
+            },
+            {
+                "name": "React JS",
+                "iconPath": "react.png"
+            }
+        ]
+    },
+    {
+        "category": "Back-End",
+        "techStack": [
+            {
+                "name": "Node JS",
+                "iconPath": "node.png"
+            },
+            {
+                "name": "Express.js",
+                "iconPath": "express.png"
+            },
+            {
+                "name": "Mongo DB",
+                "iconPath": "mongo.png"
+            }
+        ]
+    },
+    {
+        "category": "Version-Control",
+        "techStack": [
+            {
+                "name": "GitHub",
+                "iconPath": "github.png"
+            }
+        ]
+    }
+]

@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
 
   return (
-    <nav className='flex justify-between px-[11rem] h-[10vh] w-full absolute flex items-center' >
+    <nav className='flex justify-between  h-[10vh] w-full absolute flex items-center' >
       <div id="logo" className='font-semibold text-black text-xl' >Logo</div>
       <div id='nav-in' className='flex items-center gap-10 ' >
         <li className='my-btn' >Home</li>

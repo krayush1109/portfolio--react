@@ -11,7 +11,7 @@ const Home = () => {
             <div id='homeBG'>
                 {/* <img src="'/public/bg-light.jpg" alt="Not available" srcset="" /> */}
             </div>
-            <section id='home' className='relative w-full h-[100vh] flex justify-around gap-12 px-[11rem] pt-[10vh] overflow-hidden'>
+            <section id='home' className='relative w-full h-[100vh] flex justify-around gap-12 pt-[10vh] overflow-hidden'>
                 <div className="home-in w-1/2 h-[85%] flex flex-col justify-center gap-6 pr-10" id="home-in1">
                     <p className='text-[--primaryTxt] text-5xl font-semibold stroke-[4rem] stroke-red-600 mb-4 ' >Hello, I'm</p>
                     <h1 className='text-7xl font-bold ' >Ayush Kumar</h1>

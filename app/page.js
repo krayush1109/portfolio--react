@@ -1,5 +1,5 @@
 import Home from '@/Components/Home/Home'
-import TechStack from '@/Components/Home/TechStack'
+import Skills from '@/Components/Skills/Skills'
 import Navbar from '@/Components/Navbar/Navbar'
 import React from 'react'
 
@@ -9,7 +9,7 @@ const page = () => {
     <>
       <Navbar />
       <Home />
-      <TechStack />
+      <Skills />
     </>
   )
 }
