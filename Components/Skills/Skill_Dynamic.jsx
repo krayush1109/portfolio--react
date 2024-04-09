@@ -16,7 +16,7 @@ const Skill_Dynamic = () => {
                                 elem.techStack.map((e, i) => {
                                     return (
 
-                                        <div key={i} className="skill-card inline-block mx-4 border-none bg-[#FED7AA] backdrop:blur-lg rounded-2xl relative pt-10 pb-4 w-48 ">
+                                        <div key={i} className="skill-card inline-block mx-4 border-none bg-[#fff] backdrop:blur-lg rounded-2xl relative pt-10 pb-4 w-48 ">
                                             <div id="SkillImgBox" className='border-none absolute  top-0 left-1/2 translate-x-[-50%] translate-y-[-50%] w-20 h-20 p-4  ' >
                                                 <img src={`/skill-img/${e.iconPath}`} alt="NA" className='absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] w-4/5 ' />
                                             </div>
