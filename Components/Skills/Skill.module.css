@@ -1,16 +1,42 @@
-#skill-section{
-    /* background-image: url(https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?w=1060&t=st=1712649953~exp=1712650553~hmac=e1d3b0726dea2cc968e14ea8f5fdb8acfb43dbf4dcb0a19d550101a1a7f71a5a); */
 
-    /* width: 100vw; */
+.skill-card::before{
+    content: "";
+    width: 90%;
     position: absolute;
-    left: 0;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    backdrop-filter: 10px;
+    height: 0.2rem;
+    /* height: 50%; */
+    bottom: 0;    
+    transition: all 0.4s linear;
+
+    border-radius: 1rem;
+
     
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+    background-color: rgba(0, 128, 128) !important;
+    background-color: rgb(93, 188, 188) !important;
+    background-color: #22D3EE !important;
+    background-color: #2DD4BF !important;
 }
 
-.skill-card{
-    background-color: rgba(255, 255, 255, 0.399);
-    backdrop-filter: blur(1px);
+.skill-card:hover::before{
+    content: "";
+    width: 100%;
+    position: absolute;
+    backdrop-filter: 10px;        
+    height: 55%;
+    bottom: 0;
+    border-radius: 1rem;
+    
+    background-color: rgb(128, 222, 224) !important;    
+    background-color: #2DD4BF !important;
+    background-color: #DC2626 !important;
+    background-color: #0E7490 !important;
+    background-color: #22D3EE !important;
+}
+.skill-card:hover{
+    color: rgb(161, 161, 161);
+    color: rgb(3, 3, 60);
 }

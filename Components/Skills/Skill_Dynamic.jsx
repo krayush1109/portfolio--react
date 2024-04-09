@@ -16,11 +16,11 @@ const Skill_Dynamic = () => {
                                 elem.techStack.map((e, i) => {
                                     return (
 
-                                        <div key={i} className="skill-card inline-block mx-4 border-none bg-[#fff] backdrop:blur-lg rounded-2xl relative pt-10 pb-4 w-48 ">
-                                            <div id="SkillImgBox" className='border-none absolute  top-0 left-1/2 translate-x-[-50%] translate-y-[-50%] w-20 h-20 p-4  ' >
+                                        <div key={i} className="skill-card inline-block mx-4 border-none  bg-[#fff] backdrop:blur-lg relative pt-10 pb-10 w-48 rounded-2xl cursor-pointer shadow-zinc-400 shadow-md">
+                                            <div id="SkillImgBox" className='border-none absolute  top-0 left-1/2 translate-x-[-50%] translate-y-[-50%] w-20 h-20 p-4 ' >
                                                 <img src={`/skill-img/${e.iconPath}`} alt="NA" className='absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] w-4/5 ' />
                                             </div>
-                                            <h2 className='font-semibold text-xl text-center'>
+                                            <h2 className='font-semibold text-xl text-center absolute w-full'>
                                                 {e.name}
                                             </h2>
                                         </div>
