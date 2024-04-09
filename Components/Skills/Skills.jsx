@@ -4,11 +4,11 @@ import Skill_Dynamic from './Skill_Dynamic';
 
 const Skills = () => {
   return (
-    <div className='h-[100vh] w-full ' >
-      <h1 className='heading-1 uppercase text-[--primaryTxt] font-bold text-4xl text-center py-6' >Skills</h1>
-      <p className='text-center' >All technical skills and their corresponding coding notes. </p>
+    <section className='h-[100vh] w-full relative' >
+      <h1 className='heading-1 uppercase text-[--primaryTxt] font-bold text-4xl text-center pt-6' >Skills</h1>
+      <p className='text-center mt-4 mb-10 text-xl '>All technical skills and their corresponding coding notes. </p>
 
-      <div id="skill-in" className='border-teal-500 border-2'>
+      <div id="skill-in" className='bg-zinc-100 pl-12 pr-6 py-8'>
 
         {/* --------------------------------- */}
         {/* <div className="skill-Category flex border-black border-2">
@@ -33,7 +33,7 @@ const Skills = () => {
         {/* --------------------------------- */}
 
       </div>
-    </div>
+    </section>
   )
 }
 

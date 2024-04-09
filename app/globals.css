@@ -18,6 +18,8 @@ body > * {
 
 @import url('../Components/Home/home.module.css');
 
+@import url('../Components/Skills/Skill.module.css');
+
 /* ------------- Custom CSS Template ------------- */
 :root{
     --primaryTxt: #f75023;

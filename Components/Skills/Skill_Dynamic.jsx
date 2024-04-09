@@ -9,18 +9,18 @@ const Skill_Dynamic = () => {
             {
                 SkillsJson.map((elem, ind) => {
                     return (
-                        <div key={ind} className="skill-Category flex border-black border-2">
-                            <h1 className='inline text-4xl font-bold' >{elem.category}</h1>
+                        <div key={ind} className="skill-Category flex items-center h-[11rem]">
+                            <h1 className='text-2xl uppercase font-bold w-1/4 py-8' >{elem.category}</h1>
 
                             {
                                 elem.techStack.map((e, i) => {
                                     return (
 
-                                        <div key={i} className="skill-card inline-block mx-8 border-2 border-none bg-gray-200 rounded-2xl p-4 relative pt-16 w-48">
-                                            <div id="SkillImgBox" className='border-2 border-none absolute  top-0 left-1/2 translate-x-[-50%] translate-y-[-50%] w-24 h-24 p-4 rounded-full ' >
+                                        <div key={i} className="skill-card inline-block mx-4 border-none bg-[#FED7AA] backdrop:blur-lg rounded-2xl relative pt-10 pb-4 w-48 ">
+                                            <div id="SkillImgBox" className='border-none absolute  top-0 left-1/2 translate-x-[-50%] translate-y-[-50%] w-20 h-20 p-4  ' >
                                                 <img src={`/skill-img/${e.iconPath}`} alt="NA" className='absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] w-4/5 ' />
                                             </div>
-                                            <h2 className='font-bold text-xl text-center'>
+                                            <h2 className='font-semibold text-xl text-center'>
                                                 {e.name}
                                             </h2>
                                         </div>

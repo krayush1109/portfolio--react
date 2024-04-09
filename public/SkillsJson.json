@@ -13,6 +13,10 @@
             {
                 "name": "React JS",
                 "iconPath": "react.png"
+            },
+            {
+                "name": "GSAP/Locomotive",
+                "iconPath": "animation.png"
             }
         ]
     },
@@ -30,6 +34,19 @@
             {
                 "name": "Mongo DB",
                 "iconPath": "mongo.png"
+            }
+        ]
+    },
+    {
+        "category": "Programming Lang.",
+        "techStack": [
+            {
+                "name": "Java (Basic)",
+                "iconPath": "java.png"
+            },
+            {
+                "name": "DSA (Basic)",
+                "iconPath": "dsa.png"
             }
         ]
     },
