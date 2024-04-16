@@ -1,4 +1,12 @@
 
+/* Title Text stroke */
+#skill-title{
+    -webkit-text-stroke: var(--primaryTxt) !important;
+    -webkit-text-stroke-width: 1px !important;
+    transform: rotate(-90deg);  
+}
+
+/*  */
 .skill-card::before{
     content: "";
     width: 90%;
@@ -10,7 +18,6 @@
     transition: all 0.4s linear;
 
     border-radius: 1rem;
-
     
     left: 50%;
     transform: translate(-50%, 0);
@@ -18,7 +25,7 @@
     background-color: rgba(0, 128, 128) !important;
     background-color: rgb(93, 188, 188) !important;
     background-color: #22D3EE !important;
-    background-color: #2DD4BF !important;
+    background-color: #2DD4BF !important;    
 }
 
 .skill-card:hover::before{
@@ -34,7 +41,8 @@
     background-color: #2DD4BF !important;
     background-color: #DC2626 !important;
     background-color: #0E7490 !important;
-    background-color: #22D3EE !important;
+    background-color: #42d9f0 !important;
+    /* background-color: #8ce2ef !important; */
 }
 .skill-card:hover{
     color: rgb(161, 161, 161);
