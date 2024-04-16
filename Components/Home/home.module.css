@@ -1,3 +1,12 @@
+@font-face {
+    font-family: larken;
+    src: url('./LarkenDEMO-Regular.otf');
+}
+@font-face{
+    font-family: edo;
+    src: url('./edo.ttf');
+}
+
 #homeBG{
     content: "";
     height: 100%;
@@ -6,6 +15,14 @@
     background-image: url('../../public/bg-light.jpg');
     
     z-index: -1;
+}
+
+#creativeTxt{
+    color: transparent;
+    -webkit-text-stroke: #1cbe59;
+    -webkit-text-stroke-width: 1.5px;
+    /* font-family: edoo !important; */
+    /* font-weight: bold; */
 }
 
 #indiaTxt {
