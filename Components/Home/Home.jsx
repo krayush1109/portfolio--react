@@ -30,7 +30,7 @@ const Home = () => {
                 <div className="home-in w-1/2 h-[85%]  flex justify-center items-center " id="home-in2">
                     <div id='avatarBG' className='h-[20vmax] w-[20vmax] overflow-hidden rounded-full shadow-pink-200 shadow-md' >
 
-                        <img src="/avatar.png" alt="Image NA" srcset="" />
+                        <img src="/avatar.png" alt="Image NA" />
                     </div>
                 </div>
 
