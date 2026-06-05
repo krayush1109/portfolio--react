@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
 .my-btn{
     @apply text-lg font-semibold py-6 px-4 cursor-pointer hover:text-[--primaryTxt];    
@@ -15,15 +16,8 @@ body > * {
     padding: 0 11rem;
 }
 
-@import url('../Components/Navbar/Nav.module.css');
-
-@import url('../Components/Home/home.module.css');
-
-@import url('../Components/Skills/Skill.module.css');
 
 /* ------------- Custom CSS Template ------------- */
 :root{
     --primaryTxt: #f75023;
 }
-
-@tailwind utilities;

@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect } from 'react'
 import Skill_Dynamic from './Skill_Dynamic';
+import styles from './Skill.module.css';
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

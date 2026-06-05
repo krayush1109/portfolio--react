@@ -1,8 +1,8 @@
-#nav-in li {
+.navList {
     @apply list-none relative;
 }
 
-#nav-in>li::after {
+.navList::after {
     content: "";
     background-color: var(--primaryTxt);
     width: 1rem;
@@ -13,21 +13,23 @@
     transition: all 0.3s linear;
 }
 
-#nav-in>li:hover::after {
-    content: "";
-    background-color: var(--primaryTxt);
+.navList:hover::after {
     width: 70%;
-    height: 3px;
-    position: absolute;
-    bottom: 27%;
-    left: 18%
 }
 
-.my-btn:hover #my-btnBG {
+.btnBG {
+    transition: all 0.5s linear;
+}
+
+.myBtn:hover .btnBG {
     height: 100%;
     background-color: var(--primaryTxt);
 }
 
-.my-btn:hover #my-btnTxt {
+.btnTxt {
+    transition: all 0.2s linear;
+}
+
+.myBtn:hover .btnTxt {
     color: white;
-} 
+}
