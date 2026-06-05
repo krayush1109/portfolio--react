@@ -15,6 +15,10 @@
                 "iconPath": "react.png"
             },
             {
+                "name": "Angular",
+                "iconPath": "angular.png"
+            },    
+            {
                 "name": "GSAP/Locomotive",
                 "iconPath": "animation.png"
             }
@@ -49,7 +53,7 @@
                 "iconPath": "java.png"
             },
             {
-                "name": "DSA (Basic)",
+                "name": "DSA",
                 "iconPath": "dsa.png"
             }
         ]

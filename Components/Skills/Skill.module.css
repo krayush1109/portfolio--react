@@ -1,50 +1,45 @@
-
 /* Title Text stroke */
-#skill-title{
+.skillTitle {
     -webkit-text-stroke: var(--primaryTxt) !important;
     -webkit-text-stroke-width: 1px !important;
-    transform: rotate(-90deg);  
+    transform: rotate(-90deg);
 }
 
-/*  */
-.skill-card::before{
+.section {}
+
+.skillIn {}
+
+.chipContainer {}
+
+.skillCard {
+    position: relative;
+    overflow: hidden;
+}
+
+/* .skillCard::before {
     content: "";
     width: 90%;
     position: absolute;
-    backdrop-filter: 10px;
+    backdrop-filter: blur(10px);
     height: 0.2rem;
-    /* height: 50%; */
-    bottom: 0;    
+    bottom: 0;
     transition: all 0.4s linear;
-
     border-radius: 1rem;
-    
     left: 50%;
     transform: translate(-50%, 0);
-    
-    background-color: rgba(0, 128, 128) !important;
-    background-color: rgb(93, 188, 188) !important;
-    background-color: #22D3EE !important;
-    background-color: #2DD4BF !important;    
-}
-
-.skill-card:hover::before{
-    content: "";
-    width: 100%;
-    position: absolute;
-    backdrop-filter: 10px;        
-    height: 55%;
-    bottom: 0;
-    border-radius: 1rem;
-    
-    background-color: rgb(128, 222, 224) !important;    
     background-color: #2DD4BF !important;
-    background-color: #DC2626 !important;
-    background-color: #0E7490 !important;
+} */
+
+/* .skillCard:hover::before {
+    width: 100%;
+    height: 55%;
     background-color: #42d9f0 !important;
-    /* background-color: #8ce2ef !important; */
-}
-.skill-card:hover{
-    color: rgb(161, 161, 161);
+} */
+
+/* .skillCard:hover {
     color: rgb(3, 3, 60);
-}
+} */
+
+.chipGroup {}
+
+.skillChip {}
