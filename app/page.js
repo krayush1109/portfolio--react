@@ -4,6 +4,7 @@ import Navbar from '@/Components/Navbar/Navbar'
 import React from 'react'
 import Projects from '@/Components/Projects/Projects'
 import EduExp from '@/Components/EduExp/EduExp' 
+import Contact from '@/Components/ContactMe/Contact'
 
 const page = () => {
 
@@ -14,6 +15,7 @@ const page = () => {
       <Skills />
       <Projects />
       <EduExp />
+      <Contact />
     </>
   )
 }
