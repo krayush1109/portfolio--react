@@ -5,6 +5,8 @@ import React from 'react'
 import Projects from '@/Components/Projects/Projects'
 import EduExp from '@/Components/EduExp/EduExp' 
 import Contact from '@/Components/ContactMe/Contact'
+import CodingProfiles from '@/Components/CodingProfiles/CodingProfiles'
+import CTAFooter from '@/Components/CTAFooter/CTAFooter'
 
 const page = () => {
 
@@ -16,6 +18,8 @@ const page = () => {
       <Projects />
       <EduExp />
       <Contact />
+      <CodingProfiles />
+      <CTAFooter />
     </>
   )
 }
